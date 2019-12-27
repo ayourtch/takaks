@@ -29,3 +29,16 @@ fn main() {
 
 
 ```
+
+And this is a relevant *tac_plus.conf* config snippet for a test user:
+
+```
+
+user = test1 {
+  name = "Test User"
+  login = cleartext "insecure"
+}
+
+
+```
+
